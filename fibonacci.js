@@ -6,7 +6,7 @@ function fib(n) {
     return fib(n - 1) + fib(n-2);
 }
 
-document.write('n fib = ' + fib(n));
+document.write('recursion fib = ' + fib(n));
 
 var f = Number(prompt('Value 2'));
 
@@ -21,4 +21,4 @@ var c = a + b;
   return b;
 };
 
-document.write(' <br> f fib = ' + fib(f));
+document.write(' <br> cycle fib = ' + fib(f));
